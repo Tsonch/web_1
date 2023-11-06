@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>Page Title</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    </head>
+    <body>
+        <div id="task1">
+            <h4>Задание 1</h4>
+            <textarea id="shape" cols="30" rows="10"></textarea>
+            <button onclick="shape()">Вывести фигуру </button>
+            <hr>
+        </div>
+        <div id="task2">
+            <h4>Задание 2</h4>
+            <textarea id="table" cols="30" rows="10"></textarea>
+            <button onclick="table()">Вывести таблицу </button>
+            <label for="5*6">5*6</label>
+            <input type="checkbox" id="5*6">
+            <hr>
+        </div>
+        <div id="task3">
+            <h4>Задание 3</h4>
+            <label for="arr">Введите массив </label>
+            <input type="text" id="arr">
+            <button onclick="check()">Проверить</button>
+            <span id="Result"></span>
+            <hr>
+        </div>
+        <div id="task4">
+            <h4>Задание 4</h4>
+            <label for="number">Введите количество грузовиков </label>
+            <input type="number" id="number">
+            <button onclick="trucks()">Посчиатать</button>
+            <span id="km"></span>
+            <hr>
+        </div>
+        <div id="task5">
+            <h4>Задание 5</h4>
+            <label for="two">Введите число</label>
+            <input type="number" id="two">
+            <button onclick="checkingTwos()">Начать</button>
+            <span id="count"></span>
+            <hr>
+        </div>
+        <div id="task6">
+            <h4>Задание 6</h4>
+            <label for="first">Первая строка</label>
+            <input type="text" id="first">
+            <label for="second">Вторая строка</label>
+            <input type="text" id="second">
+            <button onclick="comparison()">Проверить</button>
+            <span id="res"></span>
+            <hr>
+        </div>
+        <div id="task7">
+            <h4>Задание 7</h4>
+            <span id="start">Введите количество жизней</span>
+            <span id="end"></span>
+            <input type="number" id="lvl">
+            <button onclick="HP()" id="HP" style="display: inline;">Начать</button>
+            <button onclick="verifi()" id="check" style="display: none;">Проверить</button>
+            <span id="hp"></span>
+            <hr>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
