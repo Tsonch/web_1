@@ -47,7 +47,7 @@ function table() {
 }
 
 function array1() {
-    let numbers = document.getElementById("arr1").value;
+    let numbers = document.getElementById("arr").value;
     let arr, count = 1, result;
     const regex = /\-*\d+/gi;    
     arr = numbers.match(regex);

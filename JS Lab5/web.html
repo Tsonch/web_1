@@ -11,9 +11,10 @@
         <div id="tasks">
             <h4>Задание 1-5</h4>
             <input type="text" id="text">
+            <button onclick="pushText()" id="push">Заполнить поле текстом</button>
             <button onclick="checkText()">Check text</button>
             <button onclick="blocking()" id="block">Разблокировано</button>
-            <button onclick=""></button>
+            <button onclick="showText()" id="show">Доступно</button>
             <button onclick="invisible()" id="invis">Скрыть поле</button>
             <hr>
         </div>
@@ -35,6 +36,19 @@
         <div id="task8">
             <h4>Задание 8</h4>
             <input type="text" id="text2">
+            <pre id="answer"></pre>
+            <hr>
+        </div>
+        <div id="task9">
+            <h4>Задание 9</h4>
+            <div id="element"></div>
+            <hr>
+        </div>
+        <div id="task10">
+            <h4>Задание 10</h4>
+            <canvas id="game" height="500px" width="500px"></canvas>
+            <button onclick="start()" id="start" style="display: inline;">Начать игру</button>
+            <span id="score"></span>
             <hr>
         </div>
         <script src="script.js"></script>
